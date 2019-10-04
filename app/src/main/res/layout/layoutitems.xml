@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlItems"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_blue_light"
+
+    >
+    <TextView
+        android:id="@+id/tvItemsLblUnitName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_light"
+        android:text="Unit Name" />
+
+    <TextView
+        android:id="@+id/tvItemsUnitName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvItemsLblUnitName"
+        android:layout_alignBottom="@id/tvItemsLblUnitName"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/tvItemsPos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvItemsUnitName"
+        android:layout_alignBottom="@id/tvItemsLblUnitName"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_light"
+        />
+
+    <TextView
+    android:id="@+id/tvItemsLblCallSign"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tvItemsLblUnitName"
+        android:layout_alignRight="@id/tvItemsLblUnitName"
+        android:layout_below="@id/tvItemsLblUnitName"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="2dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:textColor="@android:color/black"
+    android:background="@android:color/holo_orange_light"
+    android:text="Call Sign" />
+
+    <TextView
+        android:id="@+id/tvItemsCallSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvItemsLblCallSign"
+        android:layout_alignBottom="@id/tvItemsLblCallSign"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="@android:color/black"
+         />
+    <TextView
+        android:id="@+id/tvItemsLblGID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tvItemsLblCallSign"
+        android:layout_alignRight="@id/tvItemsLblCallSign"
+        android:layout_below="@id/tvItemsLblCallSign"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_light"
+        android:text="ID" />
+    <TextView
+        android:id="@+id/tvItemsGID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvItemsLblGID"
+        android:layout_alignBottom="@id/tvItemsLblGID"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/tvItemsLblIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tvItemsLblCallSign"
+        android:layout_alignRight="@id/tvItemsLblCallSign"
+        android:layout_below="@id/tvItemsLblGID"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_light"
+        android:text="IP" />
+
+    <TextView
+        android:id="@+id/tvItemsIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvItemsLblIP"
+        android:layout_alignBottom="@id/tvItemsLblIP"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/tvItemsLblLat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tvItemsLblCallSign"
+        android:layout_below="@id/tvItemsLblIP"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_light"
+        android:text="Lat" />
+
+    <TextView
+        android:id="@+id/tvItemsLat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvItemsLblLat"
+        android:layout_alignBottom="@id/tvItemsLblLat"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/tvItemsLblLng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvItemsLat"
+        android:layout_alignBottom="@id/tvItemsLblLat"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_light"
+        android:text="Lng" />
+
+    <TextView
+        android:id="@+id/tvItemsLng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvItemsLblLng"
+        android:layout_alignBottom="@id/tvItemsLblLng"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/tvItemsLblLocated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tvItemsLblCallSign"
+        android:layout_alignRight="@id/tvItemsLblCallSign"
+        android:layout_below="@id/tvItemsLblLat"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_light"
+        android:text="Located" />
+
+    <TextView
+        android:id="@+id/tvItemsDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvItemsLblLocated"
+        android:layout_alignBottom="@id/tvItemsLblLocated"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/tvItemsLblLocatedUnits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvItemsDistance"
+        android:layout_alignBottom="@id/tvItemsLblLocated"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_light"
+        android:text="MTRS" />
+
+
+    <TextView
+        android:id="@+id/tvItemsLblClockLocated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvItemsLblLocatedUnits"
+        android:layout_alignBottom="@id/tvItemsLblLocated"
+        android:layout_marginLeft="2dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_light"
+        android:text="@" />
+
+    <TextView
+        android:id="@+id/tvItemsClockDirection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvItemsLblClockLocated"
+        android:layout_alignBottom="@id/tvItemsLblClockLocated"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="@android:color/black"
+        />
+    <TextView
+        android:id="@+id/tvItemsLblClockPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvItemsClockDirection"
+        android:layout_alignBottom="@id/tvItemsLblLocated"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_light"
+        android:text="O'Clock" />
+
+
+
+
+</RelativeLayout>
